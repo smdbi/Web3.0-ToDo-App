@@ -13,7 +13,7 @@
   }
 
   .connect button{
-    background-color: #9a02ac;
+    background-color: #b794bb;
     padding: .5rem 1.5rem;
     font-size: 1rem;
     border-radius: .2rem;
@@ -65,7 +65,7 @@
 
     .home_create_input{
         width: 100%;
-        background-color: #9a02ac;
+        background-color: #b794bb;
         padding: 1rem;
         border-radius: .5rem;
     }
@@ -82,7 +82,7 @@
     }
 
     .iconColor{
-        color: #9a02ac;
+        color: #b794bb;
         cursor: pointer;
     }
     .iconBlack{
@@ -98,7 +98,7 @@
         gap: 1rem;
         justify-content: space-between;
         margin-top: 1rem;
-        border-bottom:  1px solid #9a02ac;
+        border-bottom:  1px solid #b794bb;
     }
 
     .lock_list{
@@ -108,19 +108,19 @@
     }
 
     .lock_color{
-        background-color: #9a02ac;
+        background-color: #b794bb;
         border-radius: .2rem;
         cursor: pointer;
         color: #fff;
     }
      .iconClose{
-        color: #9a02ac;
+        color: #b794bb;
         cursor: pointer;
         font-size: 2rem;
     }
 
     .down{
-        border: 1px dotted #9a02ac;
+        border: 1px dotted #b794bb;
         padding: .1rem .5rem;
     }
     .noData{
