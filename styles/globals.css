@@ -1,19 +1,33 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+ /* padding: 0;
+  margin: 0;*/
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-    background-image: linear-gradient(to right top, #2d0036, #4f015b, #730283, #9a02ac, #C400D7);
+    /*background-image: linear-gradient(to right top, #9d71a5, #b794bb, #b794bb, #b794bb, #b794bb);
     height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
-
+    overflow-x: hidden;*/
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    /*background-image: linear-gradient(-45deg, tomato 0%, dodgerblue 25%, forestgreen 51%, aqua 100%)*/
+    background-image: linear-gradient(-45deg, #e33b3b 0%, #ff357f 25%, #9844b7 50%, #576fe6 100%);
+    animation: background-shift 20s ease infinite;
 }
+  @keyframes background-shift{
+  0%  { background-position: 0% 50%   }
+  50% { background-position: 100% 50% }
+  100%{ background-position: 0% 50%   }
+  }
+  
+
 ::selection {
-  color: #231E39;
-  background: #9a02ac;
+  color: #4d456e;
+  background: rgb(161, 129, 174)9;
 }
 a {
   color: inherit;
@@ -27,9 +41,5 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
   }
 }
