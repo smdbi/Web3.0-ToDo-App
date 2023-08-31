@@ -21,4 +21,3 @@ Documentation and guides, providing step-by-step insights into setting up, testi
 Collaboration guidelines for contributors, enabling a community-driven evolution of the application's capabilities.
 
 
-Feel free to customize the description to align with your specific repository's goals and content. Good luck with your Web3.0 blockchain ToDo List application development <3
